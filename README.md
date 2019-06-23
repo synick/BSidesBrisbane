@@ -1,0 +1,2 @@
+# BSidesBrisbane
+BSides Brisbane Workshop
