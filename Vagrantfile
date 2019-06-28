@@ -23,11 +23,12 @@ Difficulty = [
 ENV['rearm']
 
 #Change these if you want a different lab or Difficulty
-LabIndex = 0
+LabIndex = 6
 DifficultyIndex = 0
   
   Vagrant.configure("2") do |config|
     config.vm.box = "synick/Windows7PrivEsc"
+    config.vm.box = "./Windows7PrivEsc-v0.2.box"
     config.vm.communicator = "winrm"
     config.winrm.username = "IEUser"
     config.winrm.password = "Passw0rd!"
